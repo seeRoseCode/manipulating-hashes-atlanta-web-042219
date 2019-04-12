@@ -20,8 +20,9 @@ def first_challenge
   contacts.collect do |person, data|
     data.collect do |value, attritute|
       if value == :favorite_icecream_flavors
-        if :favorite_icecream_flavors.include?('strawberry')
-        :favorite_icecream_flavors.delete("strawberry")
+  #       if :favorite_icecream_flavors.include?('strawberry')
+  #       :favorite_icecream_flavors.delete("strawberry")
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift("strawberry")
         end
       end
     end
