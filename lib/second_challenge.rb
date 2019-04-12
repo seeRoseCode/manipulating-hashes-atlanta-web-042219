@@ -8,7 +8,7 @@ def second_challenge
   }
 groceries.collect do |category, items|
   full_list = []
-  category[items].values
+  category[items].values.flatten
   full_list.push
 end
 full_list
