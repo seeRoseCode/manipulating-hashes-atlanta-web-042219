@@ -20,7 +20,7 @@ def first_challenge
   contacts.collect do |person, data|
     data.collect do |value, attritute|
       if value == :favorite_icecream_flavors
-        if :favorite_icecream_flavors.include("strawberry")
+        if :favorite_icecream_flavors.include?('strawberry')
         :favorite_icecream_flavors.delete("strawberry")
         end
       end
