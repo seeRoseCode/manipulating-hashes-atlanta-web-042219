@@ -17,15 +17,15 @@ def first_challenge
   }
 
   #your code here
-  contacts.collect do |person, data|
-    data.collect do |value, attritute|
-      if value == :favorite_icecream_flavors
-        if :favorite_icecream_flavors.include("strawberry")
-        :favorite_icecream_flavors.delete("strawberry")
-        end
-      end
-    end
+  # contacts.collect do |person, data|
+  #   data.collect do |value, attritute|
+  #     if value == :favorite_icecream_flavors
+  #       if :favorite_icecream_flavors.include?('strawberry')
+  #       :favorite_icecream_flavors.delete("strawberry")
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
+    #     end
+    #   end
+    # end
+    contacts
   end
   #remember to return your newly altered contacts hash!
-  contacts
-end
