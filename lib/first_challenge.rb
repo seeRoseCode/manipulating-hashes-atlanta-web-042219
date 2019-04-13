@@ -22,7 +22,7 @@ def first_challenge
   #     if value == :favorite_icecream_flavors
   #       if :favorite_icecream_flavors.include?('strawberry')
   #       :favorite_icecream_flavors.delete("strawberry")
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift("strawberry")
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
     #     end
     #   end
     # end
