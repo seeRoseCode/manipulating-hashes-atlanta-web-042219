@@ -6,10 +6,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-groceries.collect do |category, items|
-  full_list = []
-  category[items].values
-end
-full_list
-
+# groceries.collect do |category, items|
+#   full_list = []
+#   category[items].values
+# end
+# full_list
+groceries.values
 end
