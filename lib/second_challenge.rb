@@ -11,5 +11,5 @@ def second_challenge
 #   category[items].values
 # end
 # full_list
-groceries.values
+groceries.values.flatten 
 end
